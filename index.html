@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/Desktop/Logo.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Quiniela Suicida</title>
 </head>
 <body>
@@ -44,25 +44,28 @@
     
     <!-- final de menu mobile -->
     <!-- inicio logo -->
-    <div class="w-50 d-none d-lg-inline">
+    <div class="w-45 d-none d-lg-inline ms-5">
         <img  class="img-fluid h-100" src="assets/images/Desktop/Logo.svg" alt="" width="100">
 
     </div>
 <!-- fin logo -->
 
 <!-- inicio enlaces -->
-    <div class="d-flex justify-content-between align-content-center d-none d-lg-inline">
-    <a class="text-decoration-none text-dark me-3 " href="#">Terminos y Condiciones</a>
-    <a class="text-decoration-none text-dark ms-3" href="#">Principal</a>
-    </div>
-
-<!-- final enlaces -->
-
-
-<!-- inicio botones -->
-    <div class="d-flex d-none d-lg-inline">
- <button class="me-1 d-inline btn btn-primaryb">REGISTRATE</button>
- <button class="ms-1 d-inline btn btn-danger">INICIAR SESION</button>
+    <div class="d-flex justify-content-end">
+      <div class="me-5 justify-content-between align-items-center d-none d-lg-flex">
+      <a class="text-decoration-none text-dark me-3 fw-semibold " href="#">Terminos y Condiciones</a>
+      <a class="text-decoration-none text-dark ms-3 fw-semibold" href="#">Principal</a>
+      </div>
+      
+      <!-- final enlaces -->
+      
+      
+      <!-- inicio botones -->
+      <div class="d-flex d-none d-lg-flex align-items-center">
+       <button class="me-1 d-inline btn btn-primary  rounded-0">REGISTRATE</button>
+       <div class="division bg-danger"></div>
+       <button class="ms-1 d-inline btn btn-danger  rounded-0">INICIAR SESION</button>
+      </div>
     </div>
 
 <!-- final botones -->
@@ -75,7 +78,7 @@
 <!-- inicio slider -->
 <main class="container-xxl">
 
-    <div class="w-100 bg-danger aa d-grid align-content-center">
+    <div class="w-100  primer__slider d-grid align-content-center">
         <div  id="carouselExampleControls" class="carousel slide  " data-bs-ride="carousel">
            
             <div class="carousel-inner ">
@@ -88,9 +91,9 @@
                 <h2 class="d-block  text-white text-center fs-6  w-50 mx-auto">Por los buenos tiempos TE REGALAMOS una <p class="text-warning d-inline">ENTRADA GRATIS</p> en nuestra Quiniela Suicida de la NFL</h2>
                 
             </div>
-              <div class="carousel-item">
-                <h2 class="bg-warning">Conoce las reglas</h2>
-                <img class="d-block  w-75 mx-auto" src="assets/images/Desktop/Time_line.svg"  alt="...">
+              <div class="carousel-item text-center">
+                <h5 class="bg-warning d-inline px-4 m-5 ">Conoce las reglas</h5>
+                <img class="d-block  w-75 mx-auto my-5" src="assets/images/Desktop/Time_line.svg"  alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -105,26 +108,27 @@
 
     </div>
 
-    <!-- <div class="w-100 bg-warning segundo_slider overflow-hidden">
+    <div class="w-100 bg-warning segundo__slider ">
         
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/images/content-original-championillustrations-group-slashes.jpg" class="d-block w-100" alt="...">
+                <img src="assets/images/logo.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="assets/images/Desktop/1_Gran_premio.svg" class="d-block w-100" alt="...">
+                <img src="assets/images/logo.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="assets/images/logo.png" class="d-block w-100" alt="...">
               </div>
             </div>
-          </div> -->
+          </div>
 
 </main>
 
-<footer class="container-xxl">
-    <p>*Al ingresar a la Quiniela Suicida acepto los <a href="#">terminos y condiciones</a> publicados por <a href="#">quiniela.bet</a></p>
+
+<footer class="container-xxl bg-black px-2">
+    <p class= "text-white">*Al ingresar a la Quiniela Suicida acepto los <a class="text-warning" href="#">terminos y condiciones</a> publicados por <a class="text-warning" href="#">quiniela.bet</a></p>
 </footer>
 
 
